@@ -2,6 +2,15 @@
 
 skbtracer 基于 ebpf 技术的 skb 网络包路径追踪利器， 参考 Python 版本 [skbtracer](https://github.com/DavadDi/skbtracer) 实现的一个 Go 版本，代码基于 [goebpf](https://github.com/dropbox/goebpf) , [libbpf-bootstrap](https://github.com/libbpf/libbpf-bootstrap) (required Linux Kernel 4.15+ with CONFIG_DEBUG_INFO_BTF=y, Go 1.16+)。
 
+---
+
+To archive this repo because of some outdated kprobes.
+
+Meanwhile, [skbtracer-iptables](https://github.com/Asphaltt/skbtracer-iptables)
+is the `skbtracer` focused on iptables.
+
+---
+
 ## 使用样例
 
 ```bash
